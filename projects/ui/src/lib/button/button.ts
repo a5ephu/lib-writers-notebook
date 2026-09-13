@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   imports: [],
-  selector: 'lib-button',
+  selector: 'wn-button',
   styleUrl: './button.css',
   templateUrl: './button.html',
 })

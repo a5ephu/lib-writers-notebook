@@ -1,0 +1,15 @@
+:root {
+  /* Colors */
+  --wn-color-primary: #0ca574;
+  --wn-color-text: #e5e5e5;
+
+  /* Sizes */
+  --wn-size-xs: 4px;
+  --wn-size-sm: 8px;
+  --wn-size-md: 16px;
+  --wn-size-lg: 24px;
+  --wn-size-xl: 32px;
+
+  --wn-radius-sm: 4px;
+  --wn-radius-md: 8px;
+}
