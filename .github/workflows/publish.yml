@@ -15,6 +15,8 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - run: npm ci
       - run: npx ng build ui
+      - name: Set package version from tag
+        run: npm pkg set version="${GITHUB_REF_NAME#v}" --prefix dist/ui
       - run: cd dist/ui && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
